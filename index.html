@@ -11,13 +11,120 @@
   <meta name="apple-mobile-web-app-title" content="Warranty Vault" />
   <meta name="theme-color" content="#0b0e14" />
 
-  <!-- Self-contained SVG Apple Touch Icon & Favicon (Guaranteed no white box on iOS) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231e293b'/%3E%3Cstop offset='100%25' stop-color='%23090d16'/%3E%3C/linearGradient%3E%3ClinearGradient id='shieldGrad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='50%25' stop-color='%232563eb'/%3E%3Cstop offset='100%25' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3ClinearGradient id='borderGlow' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2360a5fa'/%3E%3Cstop offset='100%25' stop-color='%231d4ed8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='115' fill='url(%23bg)'/%3E%3Crect x='48' y='48' width='416' height='416' rx='80' fill='%23131b2e' stroke='url(%23borderGlow)' stroke-width='10' stroke-opacity='0.4'/%3E%3Cpath d='M256 100 L380 156 C380 270 326 358 256 396 C186 358 132 270 132 156 Z' fill='url(%23shieldGrad)'/%3E%3Ccircle cx='256' cy='246' r='68' fill='%230f172a' stroke='%2338bdf8' stroke-width='8' stroke-opacity='0.8'/%3E%3Cpath d='M226 246 L248 268 L292 220' fill='none' stroke='%2338bdf8' stroke-width='16' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
-  <link rel="apple-touch-icon-precomposed" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231e293b'/%3E%3Cstop offset='100%25' stop-color='%23090d16'/%3E%3C/linearGradient%3E%3ClinearGradient id='shieldGrad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='50%25' stop-color='%232563eb'/%3E%3Cstop offset='100%25' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3ClinearGradient id='borderGlow' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2360a5fa'/%3E%3Cstop offset='100%25' stop-color='%231d4ed8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='115' fill='url(%23bg)'/%3E%3Crect x='48' y='48' width='416' height='416' rx='80' fill='%23131b2e' stroke='url(%23borderGlow)' stroke-width='10' stroke-opacity='0.4'/%3E%3Cpath d='M256 100 L380 156 C380 270 326 358 256 396 C186 358 132 270 132 156 Z' fill='url(%23shieldGrad)'/%3E%3Ccircle cx='256' cy='246' r='68' fill='%230f172a' stroke='%2338bdf8' stroke-width='8' stroke-opacity='0.8'/%3E%3Cpath d='M226 246 L248 268 L292 220' fill='none' stroke='%2338bdf8' stroke-width='16' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231e293b'/%3E%3Cstop offset='100%25' stop-color='%23090d16'/%3E%3C/linearGradient%3E%3ClinearGradient id='shieldGrad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='50%25' stop-color='%232563eb'/%3E%3Cstop offset='100%25' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='115' fill='url(%23bg)'/%3E%3Cpath d='M256 100 L380 156 C380 270 326 358 256 396 C186 358 132 270 132 156 Z' fill='url(%23shieldGrad)'/%3E%3Ccircle cx='256' cy='246' r='68' fill='%230f172a' stroke='%2338bdf8' stroke-width='8' stroke-opacity='0.8'/%3E%3Cpath d='M226 246 L248 268 L292 220' fill='none' stroke='%2338bdf8' stroke-width='16' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <!-- iOS Safari strictly requires real PNG format (SVGs result in a white box on iOS Home Screen) -->
+  <link id="apple-touch-icon-main" rel="apple-touch-icon" sizes="180x180" href="" />
+  <link id="apple-touch-icon-precomposed" rel="apple-touch-icon-precomposed" sizes="180x180" href="" />
+  <link id="favicon-png" rel="icon" type="image/png" sizes="192x192" href="" />
 
-  <!-- Web App Manifest for PWA installation -->
-  <link rel="manifest" href='data:application/manifest+json,{"name":"Warranty Vault","short_name":"WarrantyVault","start_url":".","display":"standalone","background_color":"#0b0e14","theme_color":"#0b0e14","icons":[{"src":"data:image/svg+xml,%3Csvg xmlns=\x27http://www.w3.org/2000/svg\x27 viewBox=\x270 0 512 512\x27%3E%3Crect width=\x27512\x27 height=\x27512\x27 rx=\x27115\x27 fill=\x27%23090d16\x27/%3E%3Cpath d=\x27M256 100 L380 156 C380 270 326 358 256 396 C186 358 132 270 132 156 Z\x27 fill=\x27%232563eb\x27/%3E%3Ccircle cx=\x27256\x27 cy=\x27246\x27 r=\x2768\x27 fill=\x27%230f172a\x27 stroke=\x27%2338bdf8\x27 stroke-width=\x278\x27/%3E%3Cpath d=\x27M226 246 L248 268 L292 220\x27 fill=\x27none\x27 stroke=\x27%2338bdf8\x27 stroke-width=\x2716\x27 stroke-linecap=\x27round\x27 stroke-linejoin=\x27round\x27/%3E%3C/svg%3E","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}]}' />
+  <!-- Synchronous script to immediately generate a high-res 180x180 PNG data URI for iOS Safari -->
+  <script>
+    (function generateAppleTouchPng() {
+      try {
+        var size = 180;
+        var canvas = document.createElement('canvas');
+        canvas.width = size;
+        canvas.height = size;
+        var ctx = canvas.getContext('2d');
+
+        // Draw dark rounded background
+        ctx.fillStyle = '#0b0e14';
+        ctx.fillRect(0, 0, size, size);
+
+        // Inner dark blue-slate plate
+        var pad = 14;
+        var innerW = size - (pad * 2);
+        var r = 32;
+        ctx.fillStyle = '#111827';
+        ctx.strokeStyle = '#38bdf8';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.moveTo(pad + r, pad);
+        ctx.arcTo(pad + innerW, pad, pad + innerW, pad + innerW, r);
+        ctx.arcTo(pad + innerW, pad + innerW, pad, pad + innerW, r);
+        ctx.arcTo(pad, pad + innerW, pad, pad, r);
+        ctx.arcTo(pad, pad, pad + innerW, pad, r);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+
+        // Draw Shield in center
+        var cx = size / 2;
+        var cy = 40;
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.lineTo(cx + 46, cy + 20);
+        ctx.bezierCurveTo(cx + 46, cy + 62, cx + 25, cy + 96, cx, cy + 108);
+        ctx.bezierCurveTo(cx - 25, cy + 96, cx - 46, cy + 62, cx - 46, cy + 20);
+        ctx.closePath();
+
+        // Gradient fill for shield
+        var grad = ctx.createLinearGradient(cx - 46, cy, cx + 46, cy + 108);
+        grad.addColorStop(0, '#38bdf8');
+        grad.addColorStop(0.5, '#2563eb');
+        grad.addColorStop(1, '#4f46e5');
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        ctx.strokeStyle = '#93c5fd';
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+
+        // Inner dark vault circle
+        ctx.beginPath();
+        ctx.arc(cx, cy + 54, 25, 0, Math.PI * 2);
+        ctx.fillStyle = '#090d16';
+        ctx.fill();
+        ctx.strokeStyle = '#38bdf8';
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        // Checkmark
+        ctx.beginPath();
+        ctx.moveTo(cx - 11, cy + 54);
+        ctx.lineTo(cx - 3, cy + 63);
+        ctx.lineTo(cx + 12, cy + 46);
+        ctx.strokeStyle = '#38bdf8';
+        ctx.lineWidth = 5.5;
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+        ctx.stroke();
+
+        var pngUri = canvas.toDataURL('image/png');
+
+        var link1 = document.getElementById('apple-touch-icon-main');
+        var link2 = document.getElementById('apple-touch-icon-precomposed');
+        var link3 = document.getElementById('favicon-png');
+        if (link1) link1.href = pngUri;
+        if (link2) link2.href = pngUri;
+        if (link3) link3.href = pngUri;
+
+        // Dynamic Manifest with valid PNG Data URI
+        var manifestObj = {
+          name: "Warranty Vault",
+          short_name: "WarrantyVault",
+          start_url: ".",
+          display: "standalone",
+          background_color: "#0b0e14",
+          theme_color: "#0b0e14",
+          icons: [
+            {
+              src: pngUri,
+              sizes: "180x180",
+              type: "image/png",
+              purpose: "any maskable"
+            }
+          ]
+        };
+        var manifestBlob = new Blob([JSON.stringify(manifestObj)], { type: 'application/json' });
+        var manifestLink = document.createElement('link');
+        manifestLink.rel = 'manifest';
+        manifestLink.href = URL.createObjectURL(manifestBlob);
+        document.head.appendChild(manifestLink);
+      } catch (e) {
+        console.error('Failed to generate PNG icon', e);
+      }
+    })();
+  </script>
 
   <!-- Fonts & Tailwind CSS CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
